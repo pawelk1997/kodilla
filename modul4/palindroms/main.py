@@ -7,6 +7,13 @@ def palindroms(word):
 word = "kajak"
 
 if palindroms(word) == True:
-    print("Słowo jest palindromem")
+    print(f"The word {word} is a palindrome.")
 else:
-    print("Słowo nie jest palindromem")
+    print(f"The word {word} is not a palindrome.")
+
+word_two = "hello"
+
+if palindroms(word_two) == True:
+    print(f"The word {word_two} is a palindrome.")
+else:
+    print(f"The word {word_two} is not a palindrome.")
