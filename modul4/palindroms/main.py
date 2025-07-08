@@ -1,4 +1,4 @@
-def palindroms(word):
+def palindrome(word):
     """
     Checks if the given word is a palindrome.
 
@@ -16,14 +16,14 @@ def palindroms(word):
 
 word = "kajak"
 
-if palindroms(word) == True:
+if palindrome(word) == True:
     print(f"The word {word} is a palindrome.")
 else:
     print(f"The word {word} is not a palindrome.")
 
 word_two = "hello"
 
-if palindroms(word_two) == True:
+if palindrome(word_two) == True:
     print(f"The word {word_two} is a palindrome.")
 else:
     print(f"The word {word_two} is not a palindrome.")
